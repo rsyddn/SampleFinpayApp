@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
+import FinpaySDK
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            Button(action: {
+                FinpaySDKUI.pulsaDataUIBuilder(
+                    transNumber: "",
+                    username: "MT77764DKM83N",
+                    password: "YJV3AM0y",
+                    secretKey: "daYumnMb")
+            }) {
+                Text("Open Pulsa Data").frame(minWidth: 0,maxWidth: .infinity)
+                    .padding(16).foregroundColor(.white)
+                    .background(Color.teal)
+                    .cornerRadius(4)
+                
+            }.padding(.all, 16)
+        }.padding()
     }
 }
 

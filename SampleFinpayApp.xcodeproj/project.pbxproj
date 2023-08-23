@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775415A82A8217AF00EF2255 /* FinpaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775415A72A8217AF00EF2255 /* FinpaySDK.framework */; };
+		775415A92A8217AF00EF2255 /* FinpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 775415A72A8217AF00EF2255 /* FinpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D3C077E729C60672000E673A /* SampleFinpayAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C077E629C60672000E673A /* SampleFinpayAppApp.swift */; };
 		D3C077E929C60672000E673A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C077E829C60672000E673A /* ContentView.swift */; };
 		D3C077EB29C60675000E673A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C077EA29C60675000E673A /* Assets.xcassets */; };
 		D3C077EE29C60675000E673A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C077ED29C60675000E673A /* Preview Assets.xcassets */; };
-		D3C077F629C606B8000E673A /* FinpaySDK in Frameworks */ = {isa = PBXBuildFile; productRef = D3C077F529C606B8000E673A /* FinpaySDK */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		775415AA2A8217AF00EF2255 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				775415A92A8217AF00EF2255 /* FinpaySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		775415A72A8217AF00EF2255 /* FinpaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FinpaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C077E329C60672000E673A /* SampleFinpayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleFinpayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C077E629C60672000E673A /* SampleFinpayAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFinpayAppApp.swift; sourceTree = "<group>"; };
 		D3C077E829C60672000E673A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,18 +43,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C077F629C606B8000E673A /* FinpaySDK in Frameworks */,
+				775415A82A8217AF00EF2255 /* FinpaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		775415A62A8217AF00EF2255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				775415A72A8217AF00EF2255 /* FinpaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3C077DA29C60672000E673A = {
 			isa = PBXGroup;
 			children = (
 				D3C077E529C60672000E673A /* SampleFinpayApp */,
 				D3C077E429C60672000E673A /* Products */,
+				775415A62A8217AF00EF2255 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +104,7 @@
 				D3C077DF29C60672000E673A /* Sources */,
 				D3C077E029C60672000E673A /* Frameworks */,
 				D3C077E129C60672000E673A /* Resources */,
+				775415AA2A8217AF00EF2255 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,7 +112,6 @@
 			);
 			name = SampleFinpayApp;
 			packageProductDependencies = (
-				D3C077F529C606B8000E673A /* FinpaySDK */,
 			);
 			productName = SampleFinpayApp;
 			productReference = D3C077E329C60672000E673A /* SampleFinpayApp.app */;
@@ -117,7 +142,6 @@
 			);
 			mainGroup = D3C077DA29C60672000E673A;
 			packageReferences = (
-				D3C077F429C606B8000E673A /* XCRemoteSwiftPackageReference "FinpaySDK" */,
 			);
 			productRefGroup = D3C077E429C60672000E673A /* Products */;
 			projectDirPath = "";
@@ -355,25 +379,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D3C077F429C606B8000E673A /* XCRemoteSwiftPackageReference "FinpaySDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rsyddn/FinpaySDK";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D3C077F529C606B8000E673A /* FinpaySDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D3C077F429C606B8000E673A /* XCRemoteSwiftPackageReference "FinpaySDK" */;
-			productName = FinpaySDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3C077DB29C60672000E673A /* Project object */;
 }

@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-import FinpaySDK
 @main
 struct SampleFinpayAppApp: App {
     var body: some Scene {
         WindowGroup {
-            PulsaDataView()
+            ContentView()
         }
     }
 }
+
