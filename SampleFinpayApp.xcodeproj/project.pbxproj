@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		775415A82A8217AF00EF2255 /* FinpaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775415A72A8217AF00EF2255 /* FinpaySDK.framework */; };
 		775415A92A8217AF00EF2255 /* FinpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 775415A72A8217AF00EF2255 /* FinpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D31C0BE82A9683EC007A782F /* FinpaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31C0BE72A9683EC007A782F /* FinpaySDK.framework */; };
+		D31C0BE92A9683EC007A782F /* FinpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D31C0BE72A9683EC007A782F /* FinpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D3C077E729C60672000E673A /* SampleFinpayAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C077E629C60672000E673A /* SampleFinpayAppApp.swift */; };
 		D3C077E929C60672000E673A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C077E829C60672000E673A /* ContentView.swift */; };
 		D3C077EB29C60675000E673A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C077EA29C60675000E673A /* Assets.xcassets */; };
@@ -22,6 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D31C0BE92A9683EC007A782F /* FinpaySDK.framework in Embed Frameworks */,
 				775415A92A8217AF00EF2255 /* FinpaySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -31,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		775415A72A8217AF00EF2255 /* FinpaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FinpaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3027B0C2A977AF100C41CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D31C0BE72A9683EC007A782F /* FinpaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FinpaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C077E329C60672000E673A /* SampleFinpayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleFinpayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C077E629C60672000E673A /* SampleFinpayAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFinpayAppApp.swift; sourceTree = "<group>"; };
 		D3C077E829C60672000E673A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31C0BE82A9683EC007A782F /* FinpaySDK.framework in Frameworks */,
 				775415A82A8217AF00EF2255 /* FinpaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +59,7 @@
 		775415A62A8217AF00EF2255 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D31C0BE72A9683EC007A782F /* FinpaySDK.framework */,
 				775415A72A8217AF00EF2255 /* FinpaySDK.framework */,
 			);
 			name = Frameworks;
@@ -78,6 +85,7 @@
 		D3C077E529C60672000E673A /* SampleFinpayApp */ = {
 			isa = PBXGroup;
 			children = (
+				D3027B0C2A977AF100C41CAD /* Info.plist */,
 				D3C077E629C60672000E673A /* SampleFinpayAppApp.swift */,
 				D3C077E829C60672000E673A /* ContentView.swift */,
 				D3C077EA29C60675000E673A /* Assets.xcassets */,
@@ -302,6 +310,7 @@
 				DEVELOPMENT_TEAM = YK7YF9V58B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleFinpayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,6 +344,7 @@
 				DEVELOPMENT_TEAM = YK7YF9V58B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleFinpayApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

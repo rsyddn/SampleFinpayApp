@@ -12,11 +12,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button(action: {
+                let parentViewController = UIApplication.shared.windows.first?.rootViewController
+
                 FinpaySDKUI.pulsaDataUIBuilder(
                     transNumber: "",
                     username: "MT77764DKM83N",
                     password: "YJV3AM0y",
-                    secretKey: "daYumnMb")
+                    secretKey:"daYumnMb",parentViewController: parentViewController!)
             }) {
                 Text("Open Pulsa Data").frame(minWidth: 0,maxWidth: .infinity)
                     .padding(16).foregroundColor(.white)
@@ -24,6 +26,7 @@ struct ContentView: View {
                     .cornerRadius(4)
                 
             }.padding(.all, 16)
+            
         }.padding()
     }
 }

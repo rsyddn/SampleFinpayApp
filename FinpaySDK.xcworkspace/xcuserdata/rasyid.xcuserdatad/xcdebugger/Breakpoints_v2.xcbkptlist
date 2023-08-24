@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B9BB0B40-44D4-47F0-9D52-A1D814BFA480"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00168EAA-6FB6-4F0A-ABC2-79A60F3AE728"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../FPEMoneyMobileIOS/FinpaySDK/UIKit/FinpaySDKUI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "pulsaDataUIBuilder(transNumber:username:password:secretKey:parentViewController:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00168EAA-6FB6-4F0A-ABC2-79A60F3AE728 - 9481bde81d790983"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static FinpaySDK.FinpaySDKUI.pulsaDataUIBuilder(transNumber: Swift.String, username: Swift.String, password: Swift.String, secretKey: Swift.String) -&gt; SwiftUI.View"
+                  moduleName = "FinpaySDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/FPEMoneyMobileIOS/FinpaySDK/UIKit/FinpaySDKUI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "00168EAA-6FB6-4F0A-ABC2-79A60F3AE728 - 9481bde81d7909ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static FinpaySDK.FinpaySDKUI.pulsaDataUIBuilder(transNumber: Swift.String, username: Swift.String, password: Swift.String, secretKey: Swift.String) -&gt; SwiftUI.View"
+                  moduleName = "FinpaySDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/FPEMoneyMobileIOS/FinpaySDK/UIKit/FinpaySDKUI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1264">
+               </Location>
+               <Location
+                  uuid = "00168EAA-6FB6-4F0A-ABC2-79A60F3AE728 - 408b4558b3d836aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static FinpaySDK.FinpaySDKUI.pulsaDataUIBuilder(transNumber: Swift.String, username: Swift.String, password: Swift.String, secretKey: Swift.String) -&gt; ()"
+                  moduleName = "FinpaySDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rasyid/XCodeProjects/FPEMoneyMobileIOS/FinpaySDK/UIKit/FinpaySDKUI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
