@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+import FinpaySDK
 @main
 struct SampleFinpayAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PulsaDataView(
+                transNumber: "123123",
+                username: "MT77764DKM83N",
+                password: "YJV3AM0y",
+                secretKey:"daYumnMb"
+            )
         }
     }
 }
